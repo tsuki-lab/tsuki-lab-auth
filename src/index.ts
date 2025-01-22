@@ -262,10 +262,16 @@ app.get(
     documentation: {
       info: {
         title: "tsuki-lab-auth API",
-        version: "1.0.0",
-        description: "hanetsukiの個人開発 認証App API",
+        version: "0.0.1",
+        description: "sample auth api",
       },
-      servers: [{ url: "http://localhost:8787", description: "Local Server" }],
+      servers: [
+        { url: "http://localhost:8787", description: "Local Server" },
+        {
+          url: "https://tsuki-lab-auth.tsuki-lab.workers.dev",
+          description: "workers.dev",
+        },
+      ],
     },
   })
 );

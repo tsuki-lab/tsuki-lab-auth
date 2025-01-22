@@ -7,12 +7,8 @@
   "dependencies": {
     "@hono/valibot-validator": "^0.5.2",
     "@valibot/to-json-schema": "1.0.0-beta.5",
-    "aws-sdk": "^2.1692.0",
-    "bcryptjs": "^2.4.3",
     "hono": "^4.6.17",
     "hono-openapi": "^0.4.3",
-    "mock-aws-s3": "^4.0.2",
-    "nock": "^13.5.6",
     "valibot": "1.0.0-beta.13"
   },
   "devDependencies": {

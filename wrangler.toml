@@ -1,8 +1,7 @@
 name = "tsuki-lab-auth"
 main = "src/index.ts"
 compatibility_date = "2025-01-21"
-
-compatibility_flags = ["nodejs_compat"]
+node_compat = true
 
 # [vars]
 # MY_VAR = "my-variable"
