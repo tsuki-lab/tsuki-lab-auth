@@ -266,11 +266,11 @@ app.get(
         description: "sample auth api",
       },
       servers: [
-        { url: "http://localhost:8787", description: "Local Server" },
         {
           url: "https://tsuki-lab-auth.tsuki-lab.workers.dev",
           description: "workers.dev",
         },
+        { url: "http://localhost:8787", description: "Local Server" },
       ],
     },
   })
